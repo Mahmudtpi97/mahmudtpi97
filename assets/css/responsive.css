@@ -1,0 +1,150 @@
+
+/* large desktops, less than 1400px) */
+@media only screen and (max-width:1399px){
+}
+/* desktops, less than 1200px */
+@media only screen and (max-width:1199px){
+    .container{
+        max-width:100%;
+        padding:0 10px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p{
+        font-size: 16px;
+    }
+    /* About Area  */
+    .mh-about-area{
+        padding-bottom: 150px;
+    }
+    /* Services  Area*/
+    .mh-service-box{
+        padding: 25px;
+    }
+    /* Testimonial Area  */
+    .mh-testimonial{
+        padding: 40px 30px 30px 30px;
+    }
+}
+/* tablets, less than 992px */
+@media only screen and (max-width:991px){
+
+    /* Banner Area  */
+    .home-1 .mh-banner-area .row{
+        flex-direction: column-reverse;
+    }
+    .mh-banner-area .content-area .typed-text{
+        font-size: 55px;
+    }
+    .home-1 .mh-banner-area,
+    .home-3 .mh-banner-area{
+        padding-top:120px !important;
+    }
+    .home-3 .mh-left-area{
+        max-width: 100%;
+        height: auto;
+        padding:0 16px;
+    }
+    .home-3 .mh-right-area {
+        margin-left: 0;
+    }
+    .home-3 .mh-right-area .container {
+        padding-left: 10px; 
+    }
+    .home-3 .mh-banner-area .mh-banner-image {
+        order: -1;
+        margin-top: 80px;
+    }
+    
+    /* About Area  */
+    .mh-about-area{
+        padding-bottom: 100px;
+    }
+    .g-60{
+      --bs-gutter-y: 30px;
+      --bs-gutter-x: 30px;
+    }
+    .mh-service-box.style2.mt-60{
+        margin-top: 30px;
+    }
+    .mh-service-box.style2.mb-60{
+        margin-bottom: 30px;
+    }
+}
+
+/* landscape phones, less than 768px */
+@media only screen and (max-width:767px){
+    h1{
+      font-size: 38px;
+    }
+    h2{
+      font-size: 38px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .fs-48 {
+        font-size: 38px !important;
+    }
+    /* Banner Area  */
+    .home-2 .mh-banner-area .row{
+        flex-direction: column-reverse;
+    }
+    .mh-banner-area .content-area .typed-text{
+        font-size: 32px;
+    }
+    .mh-banner-area .banner-text{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    .mh-banner-area .banner-shape{
+       width: 50px;
+       left: 75%;
+    }
+    .mh-banner-area .banner-image.style1 {
+        max-width: 350px;
+    }
+    /* About Area  */
+    .mh-about-area {
+        padding-bottom: 60px;
+    }
+    /* Service Area  */
+    .mh-service-box .title{
+        margin:.5rem 0!important;
+    }
+    .mh-service-box.style3{
+        flex-direction: column;
+    }
+    /* Price Area  */
+    .pricing-table .mh-single-price .price-wrapper .price {
+        font-size: 38px;
+    }
+    /* Experience Area  */
+    .mh-experience .single-experience .inner{
+        padding: 25px;
+    }
+}
+
+/* portrait phones, less than 576px */
+@media only screen and (max-width:575px){
+    .mh-testimonial {
+        padding: 25px;
+    }
+    .mh-subscribe-form .form-group{
+        flex-direction: column;
+        align-items: flex-start !important;
+        row-gap:15px;
+    }
+    .mh-subscribe-form .form-group #subs_submit{
+        margin-left: 0;
+    }
+    /*Flex Order*/
+    .order-es-n1 {
+        order: -1!important;
+    }
+}
